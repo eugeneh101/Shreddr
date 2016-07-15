@@ -11,3 +11,16 @@ Slice to your hearts content.
 <img src="Start.png">
 <img src="Middle.png">
 <img src="End.png">
+
+
+MOTIVATION: At Captricity, there was Challenge Week, and I wanted to build games that visualize an important aspect at Captricity. At Captricity, the main language is Python, and I'm quicker to prototype in R. Hence, I built Shreddr in R.  
+
+CHALLENGES:  
+1) LOGO DESIGN: I had to estimate the shape and get the color of the Captricity logo.  
+
+2) MATRIX ORIENTATION: The first thing that perplexed me is that when I created a matrix in R and then call the image() function on it, the image had the incorrect orientation. I don't remember if the image was flipped or rotated, but it made it difficult to manually test and code to slice the pigments.  
+
+SOLUTIONS:
+1) LOGO DESIGN: I estimated the shape based on what 32 by 32 pixels can draw. I asked the Lead Designer for the actual hexadecimal colors.
+NOTES
+
