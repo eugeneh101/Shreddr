@@ -21,6 +21,12 @@ CHALLENGES:
 2) MATRIX ORIENTATION: The first thing that perplexed me is that when I created a matrix in R and then call the image() function on it, the image had the incorrect orientation. I don't remember if the image was flipped or rotated, but it made it difficult to manually test and code to slice the pigments.  
 
 SOLUTIONS:
-1) LOGO DESIGN: I estimated the shape based on what 32 by 32 pixels can draw. I asked the Lead Designer for the actual hexadecimal colors.
-NOTES
+1) LOGO DESIGN: I estimated the shape based on what 32 by 32 pixels can draw. I asked the Lead Designer for the actual hexadecimal colors. I manually designed the logo such that it would fit look good--I ultimately settled on a 32 by 32 pixel image. 
+
+2) MATRIX ORIENTATION: It was only a matter of time before I standardized how the orientation would be. For example, if I'm manually designing the logo, I'm going to design the logo as if I were drawing it on paper--left to right, up to down. I kept playing with the rotations and flipping the image until the correct plot showed up. Otherwise, it would be hard for me to debug slicing the pigments if I intended to slice the pigments vertically, but the image looks like it's slicing horizontally.
+
+ADDITIONAL NOTES: The name for this program (Shreddr) came from Captricity's engine that can shred an image into relevant pixel boxes. At Captricity, Shreddr, the name itself, was inspired by the Teenage Mutant Ninja Turtle villain.  
+<img src="Shredder.jpg">
+
+I was able to build this game in 2 days since I had the experience of using image() function from the more interesting game I made--Rain Simulation. Check it out! (https://github.com/eugeneh101/Rain-Simulator)
 
